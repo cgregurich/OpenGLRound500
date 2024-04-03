@@ -1,0 +1,16 @@
+g++
+    -o helloworld
+    HelloWorld.cpp
+    -I C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/include
+    -L C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/lib-mingw-w64 
+    -lglfw3
+    -lopengl32
+    -lgdi32
+    -luser32
+    -lkernel32
+
+g++ -o helloworld HelloWorld.cpp -I C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/include -L C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/lib-mingw-w64  -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32 -I C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glad/include
+
+FILE_NAME="
+alias c="g++ -o helloworld HelloWorld.cpp -I C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/include -L C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/lib-mingw-w64  -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32"
+alias r=./helloworld.exe
