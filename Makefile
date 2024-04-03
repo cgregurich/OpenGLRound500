@@ -1,9 +1,9 @@
 FILE_NAME = Program
 SRC_FILE = $(FILE_NAME).cpp
-GLFW_INCLUDE = C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/include
-GLAD_INCLUDE = C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glad/include
-GLAD_SRC = C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glad/src/glad.c
-LIB_DIR = C:/Users/gregurichcoli/graphics-learning/OpenGLRound500/glfw-3.4.bin.WIN64/lib-mingw-w64 
+GLFW_INCLUDE = ./glfw-3.4.bin.WIN64/include
+GLAD_INCLUDE = ./glad/include
+GLAD_SRC = ./glad/src/glad.c
+LIB_DIR = ./glfw-3.4.bin.WIN64/lib-mingw-w64 
 LIBS = -lglfw3 -lopengl32 -lgdi32 -luser32 -lkernel32
 
 # Default target
