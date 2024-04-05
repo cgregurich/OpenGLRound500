@@ -7,3 +7,6 @@ https://pastebin.com/cUxQ8Hjd
 * why do you need to use the shader program (glUseProgram()) before changing the
 uniform value (glUniform3f()) but you dont need to use the program before grabbing
  the uniform values location (glGetUniformLocation())?
+^^ got one reddit reply
+
+wilo: do exercises: https://open.gl/drawing
